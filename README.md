@@ -1,12 +1,7 @@
 #  Boardoza GP-02 GNSS Satellite Navigation Breakout Board
-GP-02 is a high-performance BDS/GNSS multi-mode satellite navigation receiver SOC
-module, which integrates RF front-end, digital baseband processor, 32-bit RISC CPU,
-power management and active antenna detection and protection functions. Support a
-variety of satellite navigation systems, including China's Beidou satellite navigation
-system BDS, the United States' GPS, and Russia's GLONASS, which can realize
-multi-system joint positioning.
-### [Click here to purchase!](https://www.ozdisan.com)
-<!-- ChatGPT: The GP-02 High-Performance BDS/GNSS Multi-Mode Satellite Navigation Receiver SOC Breakout Board offers advanced positioning and navigation capabilities, leveraging the GP-02 SOC. This board supports multiple satellite systems, including BeiDou, GPS, and GLONASS, providing robust and accurate location tracking. The GP-02 is ideal for applications in automotive navigation, asset tracking, and any project requiring reliable and precise geolocation data. -->
+The GP-02 High-Performance BDS/GNSS Multi-Mode Satellite Navigation Receiver SOC Breakout Board offers advanced positioning and navigation capabilities, leveraging the GP-02 SOC. This board supports multiple satellite systems, including BeiDou, GPS, and GLONASS, providing robust and accurate location tracking. The GP-02 is ideal for applications in automotive navigation, asset tracking, and any project requiring reliable and precise geolocation data.
+
+### [Click here to purchase!](https://www.ozdisan.com/maker-and-iot-products/boardoza/boardoza-modules/BOARDOZA-GP-02/1206509)
 
 |Front Side|Back Side|
 |:---:|:---:|
@@ -14,25 +9,23 @@ multi-system joint positioning.
 
 ---
 ## Key Features
-- It can work with 3.3V or 5V.
-- It easily communicates with an MCU with TTL  UART outputs.
-- J3 and J4 connectors are work with 3.3V level.
-- This board works with UART. (You can see more info in GP-02 Datasheet.)
-
-<!-- ChatGPT:
 - Multi-Mode Support: Supports BDS, GPS, and GLONASS for reliable and accurate global positioning.
 - High-Performance SOC: Ensures precise geolocation even in challenging environments.
 - Compact Design: Integrated RF front-end in a small form factor for superior signal reception.
 - Low Power Consumption: Ideal for battery-powered applications, extending device battery life.
-- Easy Integration: Standard UART interface enables seamless connectivity with various systems. -->
+- Easy Integration: Easy communication with MCUs via TTL UART outputs, providing seamless integration.
 ---
 
 ## Technical Specifications
 **Voltage Input Type:**	Molex 4 pin 2.50mm header
 
-**Input Voltage:**	5V or 1S Battery
+**Input Voltage:**	5V or 1S Battery (3.3V)
 
 **Functions:**	BDS/GNSS multi-mode satellite navigation receiver SOC module.
+
+**Communication Interface:** UART (TTL Level)
+
+**Connector Voltage Level:** 3.3V (J3, J4 connectors)  
 
 **Operating Temperature:**	 -40°C to +85°C
 
