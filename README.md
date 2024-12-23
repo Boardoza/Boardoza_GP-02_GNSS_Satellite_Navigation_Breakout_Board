@@ -58,12 +58,12 @@ The GP-02 High-Performance BDS/GNSS Multi-Mode Satellite Navigation Receiver SOC
 ---
 ## Step Files
 
-[Boardoza GP-02.step]()
+[Boardoza GP-02.step](./assets/Boardoza%20GP-02%20Step.step)
 
 ---
 ## Datasheet
 
-[Boardoza GP-02 Datasheet.pdf](.)
+[Boardoza GP-02 Datasheet.pdf](./assets/GP-02%20Datasheet.pdf)
 
 ---
 ## Version History
