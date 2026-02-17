@@ -71,6 +71,35 @@ This module offers **TTL-level UART communication**, making it easy to interface
 
 ---
 
+## Compatible Antennas
+
+For optimal satellite reception and stable positioning performance, it is strongly recommended to use a properly tuned **active GNSS antenna** compatible with the **L1 band**.
+
+Since the GP-02 supports **GPS (1575.42 MHz L1), BeiDou B1 (1561.098 MHz), and GLONASS L1 (~1602 MHz)**, the antenna must cover the **1559–1606 MHz frequency range** to ensure reliable multi-constellation tracking.
+
+An active antenna with an integrated **Low Noise Amplifier (LNA)** significantly improves signal acquisition time, enhances positioning accuracy, and maintains stable performance in weak-signal environments such as urban areas, dense foliage, or partially obstructed outdoor spaces.
+
+Using a properly matched antenna also reduces signal loss and improves receiver sensitivity.
+
+
+
+[Recommended Antenna: Active GNSS L1 Antenna (GPS / BDS / GLONASS)  3V–5V with SMA Connector](https://www.ozdisan.com/p/rf-antenler-660/sunnyway-rf-swg003-sw19019ib93-1207541)
+
+**Key Antenna Characteristics:**
+
+- **Frequency Range:** 1559–1606 MHz (L1 Band)  
+- **Center Frequencies:** 1.559 / 1.575 / 1.602 GHz  
+- **Gain:** 2.13 dBi (1561 MHz), 2.11 dBi (1575 MHz), 2.91 dBi (1602 MHz)   
+- **GNSS Support:** GPS, BeiDou, GLONASS, GALILEO
+- **Type:** Active patch antenna with integrated LNA
+- **Operating Voltage:** 3V–5V (bias powered)
+- **Connector Type:** IPEX MHF1
+- **Impedance:** 50Ω
+
+>  **Important:** Always connect the antenna before powering the module. Operating the GNSS receiver without a connected antenna may degrade RF performance and potentially damage the RF front-end.
+
+---
+
 ## Step Files
 
 [Boardoza GP-02.step](./assets/Boardoza%20GP-02%20Step.step)
